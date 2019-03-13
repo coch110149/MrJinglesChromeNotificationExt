@@ -1,0 +1,10 @@
+{
+    "name": "Mr. Jingles' resurected",
+    "version": "1.0",
+    "description": "Celebrate Mr. Jingles by letting him handle all of your notifications",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+
+}

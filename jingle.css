@@ -1,0 +1,41 @@
+.pane{
+    width: 150px;
+  height: 140px;
+  margin: 200px auto;
+  position: relative;
+}
+
+.bell{
+    width: 100%;
+    height: 100%;
+    background: #666;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+    -webkit-transition: all 1s;
+    -webkit-transform: translateZ(0);
+}
+
+.bell:after{
+    content:'';
+    background: #666;
+    width: 116%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left: -8%;
+    border-radius: 20px;
+}
+
+.bell:before {
+    content: '';
+    background: #fff;
+    width: 20%;
+    height: 20%;
+    top: -16%;
+    left:50%;
+    margin-left: -10%;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 7px #666;
+    z-index: -1;
+}
